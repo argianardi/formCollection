@@ -1,10 +1,12 @@
 import React from "react";
+import CustomInput from "../components/CustomInput";
+import FloatingInputForm from "../components/FloatingInputForm";
 import "../styles/App.css";
 
 function App() {
   return (
-    <div className="text-blue-700 underline">
-      <p> sdf app</p>
+    <div className="m-5">
+      <FloatingInputForm />
     </div>
   );
 }
